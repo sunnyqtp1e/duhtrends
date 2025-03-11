@@ -75,17 +75,6 @@ body {
 .sign-in-container button:hover {
     background-color: #efbf04;
 }
-.forgot-password {
-    position: absolute;
-    top: 55%;
-    left: 6%;
-    width: 70%;
-    font-size: 14px;
-    font-weight: 600;
-    cursor: pointer;
-    margin-left: 5%;
-    font-family: Inter;
-}
 .front-design {
     position: absolute;
     top: 20%;

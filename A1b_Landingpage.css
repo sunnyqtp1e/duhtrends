@@ -10,7 +10,6 @@ body {
 }
 
 .container {
-    position: fixed;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -20,7 +19,6 @@ body {
 }
 
 .duh-trends-palas {
-    position: fixed;
     font-size: 80px;
     font-weight: 900;
     font-family: Poppins;
@@ -29,7 +27,6 @@ body {
 }
 
 .home-for-a {
-    position: fixed;
     font-size: 40px;
     line-height: 70px;
     font-weight: 900;
@@ -40,7 +37,6 @@ body {
 }
 
 .sign-in-container-icon {
-    position: fixed;
     top: 0px;
     left: 0px;
     border-radius: 20px;
@@ -49,7 +45,6 @@ body {
 }
 
 .get-started-button {
-    position: fixed;
     width: 100%;
     height: 57px;
     cursor: pointer;

@@ -93,7 +93,7 @@ body {
 }
 .icon3 {
     position: absolute;
-    top: 562px;
+    top: 537px;
     left: 41px;
     width: 25px;
     height: 25px;
@@ -228,12 +228,12 @@ body {
     width: 845px;
     height: 418.8px;
 }
-.chevron-down-icon {
+.down-icon {
     position: absolute;
-    top: 6.42px;
-    left: 232px;
-    width: 35px;
-    height: 32.9px;
+    top: 10px;
+    left: 230px;
+    width: 30px;
+    height: 30px;
     overflow: hidden;
 }
 .group-parent {

@@ -129,14 +129,6 @@ body {
     color: #000;
     font-family: Inter;
 }
-.chevron-down-icon {
-    position: absolute;
-    top: 138px;
-    left: 753px;
-    width: 35px;
-    height: 30px;
-    overflow: hidden;
-}
 .group-child {
     position: absolute;
     top: 0px;
@@ -145,13 +137,14 @@ body {
     width: 484px;
     height: 30px;
 }
-.chevron-down-icon1 {
+.down-icon {
     position: absolute;
-    top: 0px;
-    left: 449px;
-    width: 35px;
-    height: 30px;
-    overflow: hidden;
+    z-index: 1;
+    top: 158px;
+    left: 753px;
+    width: 20px;
+    height: 20px;
+    overflow: auto;
 }
 .renter-1 {
     position: absolute;
@@ -229,7 +222,7 @@ body {
 .item-name {
     position: absolute;
     top: 625px;
-    left: calc(50% - 301px);
+    left: calc(50% - 521px);
     font-size: 20px;
     line-height: 130%;
     font-weight: 600;
@@ -240,7 +233,7 @@ body {
 .item-id {
     position: absolute;
     top: 573px;
-    left: calc(50% - 300px);
+    left: calc(50% - 521px);
     font-size: 20px;
     line-height: 130%;
     font-weight: 600;
@@ -251,7 +244,7 @@ body {
 .quantity-sold {
     position: absolute;
     top: 680px;
-    left: calc(50% - 300px);
+    left: calc(50% - 521px);
     font-size: 22px;
     line-height: 130%;
     font-weight: 600;
@@ -321,7 +314,7 @@ body {
 }
 .icon3 {
     position: absolute;
-    top: 562px;
+    top: 537px;
     left: 41px;
     width: 25px;
     height: 25px;
@@ -412,4 +405,5 @@ body {
     color: #fff;
     font-family: Poppins;
 }
+
 
