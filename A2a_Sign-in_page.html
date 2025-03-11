@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="A2b_Sign-in_page.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@700;900&display=swap" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@900&display=swap" />
+    <title>Sign-In Page</title>
+</head>
+<body>
+    <div class="sign-in-container">
+        <h1>DUH TRENDS PALAS</h1>
+        <h2>Sign In</h2>
+        <input type="text" placeholder="Username or Email">
+        <input type="password" placeholder="Password">
+        <div class="forgot-password">Forgot Password?</div>
+        <button onclick="signIn()">Sign In</button>
+    </div>
+
+    <div class="front-design">
+        <div class="home-for-a">Home for a stylish you</div>
+    </div>
+
+    <script>
+        function signIn() {
+            var username = document.querySelector('input[type="text"]').value;
+            var password = document.querySelector('input[type="password"]').value;
+            
+            fetch('your-backend-endpoint', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify({ username: username, password: password })
+            })
+            .then(response => response.json())
+            .then(data => {
+                if(data.success) {
+                    alert('Sign-in successful!');
+                    window.location.href = 'homepage.html';
+                } else {
+                    alert('Invalid username or password.');
+                }
+            })
+            .catch(error => {
+                console.error('Error:', error);
+            });
+        }
+    </script>
+</body>
+</html>

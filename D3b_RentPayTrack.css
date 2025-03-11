@@ -1,0 +1,7 @@
+body {
+    background-image: url('rd.png');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    font-family: Poppins;
+}

@@ -1,0 +1,111 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background-image: url('ZA2_bd.png');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-color: #000;
+}
+.sign-in-container {
+    position: absolute;
+    top: 10%;
+    right: 5%;
+    box-shadow: -15px 15px 4px rgba(0, 0, 0, 0.4);
+    border-radius: 45px;
+    background-color: #f6f6f6;
+    width: 618px;
+    height: 734px;
+    padding: 20px;
+    
+}
+.sign-in-container h1 {
+    text-align: center;
+    font-size: 50px;
+    font-weight: 900;
+    font-family: Poppins;
+}
+.sign-in-container h2 {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom: 30px;
+    font-family: Poppins;
+}
+.sign-in-container input[type="text"] {
+    position: absolute;
+    top: 35%;
+    left: 10%;
+    width: 75%;
+    padding: 15px;
+    margin: 10px 0;
+    border: 3px solid #000;
+    border-radius: 20px;
+    font-size: 18px;
+}
+
+.sign-in-container input[type="password"]{
+    position: absolute;
+    top: 45%;
+    left: 10%;
+    width: 75%;
+    padding: 15px;
+    margin: 10px 0;
+    border: 3px solid #000;
+    border-radius: 20px;
+    font-size: 18px;
+}
+.sign-in-container button {
+    position: absolute;
+    top: 60%;
+    left: 10%;
+    width: 80%;
+    padding: 15px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 20px;
+    background-color: #ffbf00;
+    color: #000;
+    font-size: 26px;
+    cursor: pointer;
+    font-family: Poppins;
+}
+
+.sign-in-container button:hover {
+    background-color: #efbf04;
+}
+.forgot-password {
+    position: absolute;
+    top: 55%;
+    left: 6%;
+    width: 70%;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    margin-left: 5%;
+    font-family: Inter;
+}
+.front-design {
+    position: absolute;
+    top: 20%;
+    left: 5%;
+    width: calc(50% - 309px);
+    height: 568.6px;
+    text-align: center;
+    font-size: 60px;
+    color: #efbf04;
+    font-family: Poppins;
+    transform: translateY(-50%);
+}
+.home-for-a {
+    position: absolute;
+    top: 100%;
+    left: 30%;
+    transform: translateY(-50%);
+    font-size: 75px;
+    color: #efbf04;
+    font-family: Poppins;
+    font-weight: 900;
+    text-align: left;
+}
