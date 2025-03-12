@@ -5,6 +5,16 @@ body {
     background-attachment: fixed;
     font-family: Poppins;
 }
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover, a:visited, a:active {
+    text-decoration: none;
+    color: inherit;
+}
+
 .settings {
     position: absolute;
     top: 0px;
