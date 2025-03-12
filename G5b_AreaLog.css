@@ -1,0 +1,487 @@
+.group-child {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    backdrop-filter: blur(10px);
+    background-color: #f6f6f6;
+    width: 1280px;
+    height: 715px;
+}
+.update-stock-pop-up-inner {
+    position: absolute;
+    top: 63px;
+    left: 0px;
+    width: 1280px;
+    height: 715px;
+}
+.area-logs {
+    position: absolute;
+    top: 0px;
+    left: 505px;
+    display: inline-block;
+    width: 254px;
+    height: 33px;
+}
+.update-stock-pop-up {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 1280px;
+    height: 778px;
+}
+.update-stock-pop-up-wrapper {
+    position: absolute;
+    top: 22px;
+    left: 0px;
+    width: 1280px;
+    height: 778px;
+    text-align: center;
+    font-size: 30px;
+}
+.back-to-manage {
+    position: absolute;
+    top: 11px;
+    left: 46px;
+    display: inline-block;
+    width: 254px;
+    height: 18px;
+    text-shadow: -2px 2px 0px rgba(0, 0, 0, 0.25);
+}
+.back-icon-1 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 39px;
+    height: 39px;
+    object-fit: cover;
+}
+.back-to-manage-users-parent {
+    position: absolute;
+    top: 22px;
+    left: 14px;
+    width: 300px;
+    height: 39px;
+    color: #fff;
+}
+.group-item {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border-radius: 17px;
+    background-color: #303030;
+    width: 448.8px;
+    height: 238.3px;
+}
+.add-area {
+    position: absolute;
+    top: 10.05px;
+    left: 18.12px;
+    font-size: 22px;
+    display: inline-block;
+    color: #ffcb74;
+    width: 161px;
+    height: 16.8px;
+}
+.group-inner {
+    position: absolute;
+    top: 8.61px;
+    left: 391px;
+    border-radius: 5px;
+    background-color: #ffcb74;
+    width: 39px;
+    height: 22px;
+}
+.save {
+    position: absolute;
+    top: 12.61px;
+    left: 398px;
+    font-size: 10px;
+    display: inline-block;
+    color: #303030;
+    width: 32px;
+    height: 14px;
+}
+.rectangle-div {
+    position: absolute;
+    top: 39px;
+    left: 153.98px;
+    border-radius: 5px;
+    background-color: #f8f8f8;
+    width: 270.6px;
+    height: 23.4px;
+}
+.area-id {
+    position: absolute;
+    top: 43.07px;
+    left: 24px;
+    font-weight: 600;
+    display: inline-block;
+    width: 96.3px;
+    height: 16.3px;
+}
+.group-child1 {
+    position: absolute;
+    top: 70.57px;
+    left: 153.98px;
+    border-radius: 5px;
+    background-color: #f8f8f8;
+    width: 270.6px;
+    height: 23.4px;
+}
+.area-name {
+    position: absolute;
+    top: 74px;
+    left: 24px;
+    font-weight: 600;
+    display: inline-block;
+    width: 99px;
+    height: 17px;
+}
+.group-child2 {
+    position: absolute;
+    top: 102.15px;
+    left: 153.98px;
+    border-radius: 5px;
+    background-color: #f8f8f8;
+    width: 270.6px;
+    height: 23.4px;
+}
+.type-name {
+    position: absolute;
+    top: 106.22px;
+    left: 24.07px;
+    font-weight: 600;
+    display: inline-block;
+    width: 98.8px;
+    height: 16.3px;
+}
+.group-child3 {
+    position: absolute;
+    top: 133.72px;
+    left: 152.91px;
+    border-radius: 5px;
+    background-color: #f8f8f8;
+    width: 270.6px;
+    height: 23.4px;
+}
+.size {
+    position: absolute;
+    top: 137.8px;
+    left: 23px;
+    font-weight: 600;
+    display: inline-block;
+    width: 98.8px;
+    height: 16.3px;
+}
+.group-child4 {
+    position: absolute;
+    top: 165.42px;
+    left: 152.91px;
+    border-radius: 5px;
+    background-color: #f8f8f8;
+    width: 270.6px;
+    height: 23.4px;
+}
+.price {
+    position: absolute;
+    top: 169.5px;
+    left: 23px;
+    font-weight: 600;
+    display: inline-block;
+    width: 98.8px;
+    height: 16.3px;
+}
+.group-child5 {
+    position: absolute;
+    top: 197px;
+    left: 152.91px;
+    border-radius: 5px;
+    background-color: #f8f8f8;
+    width: 270.6px;
+    height: 23.4px;
+}
+.description {
+    position: absolute;
+    top: 201.07px;
+    left: 23px;
+    font-weight: 600;
+    display: inline-block;
+    width: 98.8px;
+    height: 16.3px;
+}
+.rectangle-parent {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 448.8px;
+    height: 238.3px;
+}
+.management-area-log-inner {
+    position: absolute;
+    top: 534px;
+    left: 181px;
+    width: 448.8px;
+    height: 238.3px;
+}
+.group-child6 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border-radius: 17px;
+    background-color: #303030;
+    width: 439px;
+    height: 238.3px;
+}
+.group-child7 {
+    position: absolute;
+    top: 15.59px;
+    left: 381.8px;
+    border-radius: 5px;
+    background-color: #ffcb74;
+    width: 38.9px;
+    height: 24px;
+}
+.save1 {
+    position: absolute;
+    top: 20.59px;
+    left: 388.11px;
+    display: inline-block;
+    width: 32.6px;
+    height: 14px;
+}
+.rectangle-group {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 439px;
+    height: 238.3px;
+}
+.group-wrapper {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 439px;
+    height: 238.3px;
+    font-size: 10px;
+    color: #303030;
+}
+.edit-area {
+    position: absolute;
+    top: 7.98px;
+    left: 26.99px;
+    font-size: 22px;
+    display: inline-block;
+    color: #ffcb74;
+    width: 161px;
+    height: 16.8px;
+}
+.group-child8 {
+    position: absolute;
+    top: 38.14px;
+    left: 153.99px;
+    border-radius: 5px;
+    background-color: #f8f8f8;
+    width: 215px;
+    height: 23px;
+}
+.area-id1 {
+    position: absolute;
+    top: 42px;
+    left: 34.99px;
+    font-weight: 600;
+    display: inline-block;
+    width: 96.3px;
+    height: 16.3px;
+}
+.group-child9 {
+    position: absolute;
+    top: 70.14px;
+    left: 153.99px;
+    border-radius: 5px;
+    background-color: #f8f8f8;
+    width: 215px;
+    height: 23px;
+}
+.area-name1 {
+    position: absolute;
+    top: 72.93px;
+    left: 34.99px;
+    font-weight: 600;
+    display: inline-block;
+    width: 99px;
+    height: 17px;
+}
+.group-child10 {
+    position: absolute;
+    top: 101.14px;
+    left: 153.99px;
+    border-radius: 5px;
+    background-color: #f8f8f8;
+    width: 215px;
+    height: 24px;
+}
+.type-name1 {
+    position: absolute;
+    top: 105.15px;
+    left: 35.06px;
+    font-weight: 600;
+    display: inline-block;
+    width: 98.8px;
+    height: 16.3px;
+}
+.group-child11 {
+    position: absolute;
+    top: 133.14px;
+    left: 152.99px;
+    border-radius: 5px;
+    background-color: #f8f8f8;
+    width: 215px;
+    height: 23px;
+}
+.size1 {
+    position: absolute;
+    top: 136.73px;
+    left: 33.99px;
+    font-weight: 600;
+    display: inline-block;
+    width: 98.8px;
+    height: 16.3px;
+}
+.group-child12 {
+    position: absolute;
+    top: 164.14px;
+    left: 152.99px;
+    border-radius: 5px;
+    background-color: #f8f8f8;
+    width: 215px;
+    height: 24px;
+}
+.price1 {
+    position: absolute;
+    top: 168.43px;
+    left: 33.99px;
+    font-weight: 600;
+    display: inline-block;
+    width: 98.8px;
+    height: 16.3px;
+}
+.group-child13 {
+    position: absolute;
+    top: 196.14px;
+    left: 152.99px;
+    border-radius: 5px;
+    background-color: #f8f8f8;
+    width: 215px;
+    height: 23px;
+}
+.description1 {
+    position: absolute;
+    top: 200px;
+    left: 33.99px;
+    font-weight: 600;
+    display: inline-block;
+    width: 98.8px;
+    height: 16.3px;
+}
+.group-parent {
+    position: absolute;
+    top: 535.02px;
+    left: 643.01px;
+    width: 439px;
+    height: 238.3px;
+}
+.text {
+    flex: 1;
+    position: relative;
+    line-height: 130%;
+    font-weight: 600;
+}
+.content {
+    align-self: stretch;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 10px 12px;
+}
+.cell {
+    align-self: stretch;
+    flex: 1;
+    background-color: rgba(0, 0, 0, 0.06);
+    border-top: 1px solid #b9b9b9;
+    border-left: 1px solid #b9b9b9;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.row {
+    align-self: stretch;
+    flex: 1;
+    background-color: rgba(255, 255, 255, 0);
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    font-size: 14px;
+    font-family: Poppins;
+}
+.text6 {
+    flex: 1;
+    position: relative;
+    line-height: 130%;
+}
+.cell6 {
+    align-self: stretch;
+    flex: 1;
+    background-color: rgba(255, 255, 255, 0);
+    border-top: 1px solid #b9b9b9;
+    border-left: 1px solid #b9b9b9;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.row1 {
+    align-self: stretch;
+    flex: 1;
+    background-color: rgba(255, 255, 255, 0);
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.table {
+    position: absolute;
+    top: 109px;
+    left: 71px;
+    border-radius: 4px;
+    background-color: #fff;
+    border: 1px solid #b9b9b9;
+    box-sizing: border-box;
+    width: 1131px;
+    height: 398px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    font-size: 12px;
+    color: #000;
+    font-family: Inter;
+}
+.management-area-log {
+    width: 100%;
+    position: relative;
+    background-color: #303030;
+    height: 800px;
+    overflow: hidden;
+    text-align: left;
+    font-size: 14px;
+    color: #f6f6f6;
+    font-family: Poppins;
+}
+
