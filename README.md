@@ -2,7 +2,7 @@ How to Read the names / Name Format
 
 [C1b_]     = [Cap Letter] [Number] [Uncap Letter]
 
-Capital Letter : [Page type]             A = Start-up, B = Renter, C = Staff, D = Management, E = Renter Pop-ups, F = Staff Pop-ups, G = Management Pup-ups
+Capital Letter : [Page type]             A = Start-up, B = Renter, C = Staff, D = Management
 
 Number         : [Chronological Order]   1, 2, 3, 4, 5...
 
