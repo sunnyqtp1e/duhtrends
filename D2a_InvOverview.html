@@ -20,6 +20,11 @@
     		</div>
     		<div class="management-inventory-overvie-item">
     		</div>
+
+			
+
+
+
     		<div class="table-1">
       			<div class="table">
         				<div class="row">
@@ -629,33 +634,46 @@
 			<div>
 				<img class="down-icon" alt="" src="down-icon.png">
 			</div>
+
+			<a href="D3a_RentPayTrack.html">
     		<b class="rent-payment-tracking-container">
       			<p class="rent-payment">Rent Payment</p>
       			<p class="rent-payment">Tracking</p>
     		</b>
+    		<img class="icon1" alt="" src="payment-icon.png"></a>
+
+			<a href="D5a_MSetting.html">
     		<b class="settings">Settings</b>
+			<img class="icon2" alt="" src="settings-icon.png"></a>
+
+			<a href="D4a_ManageUsers.html">
     		<b class="manage-user">Manage User</b>
+			<img class="icon4" alt="" src="user-icon.png"></a>
+
+			<a href="D1a_MDashboard.html">
     		<b class="home">Home</b>
-    		<img class="icon" alt="" src="home1-icon.png">
-    		
-    		<img class="icon1" alt="" src="payment-icon.png">
-    		
-    		<img class="icon2" alt="" src="settings-icon.png">
+    		<img class="icon" alt="" src="home1-icon.png"></a>
     		
     		<b class="inventory-overview">
       			<p class="rent-payment">Inventory</p>
       			<p class="rent-payment">Overview</p>
     		</b>
-    		<img class="icon3" alt="" src="inventory1-icon.png">
+			<img class="icon3" alt="" src="inventory1-icon.png">
     		
-    		<img class="icon4" alt="" src="user-icon.png">
+
     		
     		<div class="inventory-overview1">Inventory Overview</div>
     		<div class="rectangle-parent">
       			<div class="group-child">
       			</div>
-      			
-      			<b class="renter-1">RENTER 1</b>
+      			<div class="dropdown">
+					<button class="dropdown-btn" onclick="toggleDropdown()">RENTER 1</button>
+					<ul class="dropdown-menu" id="dropdownMenu">
+						<li><a href="#">Renter 1</a></li>
+						<li><a href="#">Renter 2</a></li>
+						<li><a href="#">Renter 3</a></li>
+					</ul>
+				</div>
     		</div>
     		<img class="icon5" alt="" src="management-profile.png">
     		
@@ -663,15 +681,28 @@
       			<div class="rectangle-group">
         				<div class="group-item">
         				</div>
+						<a href="G1a_StockoutItem.html">
         				<b class="stockout-item">Stockout Item</b>
-        				<img class="icon6" alt="" src="items-icon.png">
-        				
+        				<img class="icon6" alt="" src="items-icon.png"></a>
       			</div>
     		</div>
     		<b class="duh-trends-palas">DUH TRENDS PALAS</b>
   	</div>
   	
-  	
+  	<script>
+		function toggleDropdown() {
+			document.getElementById("dropdownMenu").classList.toggle("show");
+		}
+		
+		// Close dropdown if clicked outside
+		document.addEventListener("click", function(event) {
+			var dropdown = document.querySelector(".dropdown");
+			if (!dropdown.contains(event.target)) {
+				document.getElementById("dropdownMenu").classList.remove("show");
+			}
+		});
+		</script>
+
   	
   	
 </body>

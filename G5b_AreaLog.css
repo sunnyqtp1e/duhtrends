@@ -1,394 +1,413 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+    background-color: #303030;
+}
 .group-child {
     position: absolute;
     top: 0px;
     left: 0px;
     backdrop-filter: blur(10px);
+    background-color: #303030;
+    width: 1280px;
+    height: 800px;
+    font-family: 'Poppins';
+}
+.group-item {
+    position: absolute;
+    top: 85px;
+    left: 0px;
+    backdrop-filter: blur(10px);
+    border-radius: 25px;
     background-color: #f6f6f6;
-    width: 1280px;
-    height: 715px;
+    width: 100%;
+    height: 100vh;
+    font-family: 'Poppins';
 }
-.update-stock-pop-up-inner {
-    position: absolute;
-    top: 63px;
-    left: 0px;
-    width: 1280px;
-    height: 715px;
-}
-.area-logs {
-    position: absolute;
-    top: 0px;
-    left: 505px;
-    display: inline-block;
-    width: 254px;
-    height: 33px;
-}
-.update-stock-pop-up {
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    width: 1280px;
-    height: 778px;
-}
-.update-stock-pop-up-wrapper {
+.management-rent-logs-child {
     position: absolute;
     top: 22px;
-    left: 0px;
-    width: 1280px;
-    height: 778px;
-    text-align: center;
-    font-size: 30px;
-}
-.back-to-manage {
-    position: absolute;
-    top: 11px;
-    left: 46px;
-    display: inline-block;
-    width: 254px;
-    height: 18px;
-    text-shadow: -2px 2px 0px rgba(0, 0, 0, 0.25);
-}
-.back-icon-1 {
-    position: absolute;
-    top: 0px;
-    left: 0px;
+    left: 14px;
     width: 39px;
     height: 39px;
     object-fit: cover;
 }
-.back-to-manage-users-parent {
+.rent-logs {
     position: absolute;
     top: 22px;
-    left: 14px;
-    width: 300px;
-    height: 39px;
-    color: #fff;
-}
-.group-item {
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    border-radius: 17px;
-    background-color: #303030;
-    width: 448.8px;
-    height: 238.3px;
-}
-.add-area {
-    position: absolute;
-    top: 10.05px;
-    left: 18.12px;
-    font-size: 22px;
+    left: 505px;
+    font-size: 30px;
     display: inline-block;
-    color: #ffcb74;
-    width: 161px;
-    height: 16.8px;
+    text-align: center;
+    width: 254px;
+    height: 33px;
+}
+.back-to-manage {
+    position: absolute;
+    top: 33px;
+    left: 60px;
+    display: inline-block;
+    color: #fff;
+    width: 254px;
+    height: 18px;
+    text-shadow: -2px 2px 0px rgba(0, 0, 0, 0.25);
 }
 .group-inner {
     position: absolute;
-    top: 8.61px;
-    left: 391px;
-    border-radius: 5px;
-    background-color: #ffcb74;
-    width: 39px;
-    height: 22px;
+    top: 0px;
+    left: 0px;
+    border-radius: 17px;
+    background-color: #303030;
+    width: 470.3px;
+    height: 273.8px;
 }
-.save {
+.add-user {
     position: absolute;
-    top: 12.61px;
-    left: 398px;
-    font-size: 10px;
+    top: 10.83px;
+    left: 19px;
+    font-size: 22px;
     display: inline-block;
-    color: #303030;
-    width: 32px;
-    height: 14px;
+    color: #ffcb74;
+    width: 168.8px;
+    height: 18.1px;
 }
 .rectangle-div {
     position: absolute;
-    top: 39px;
-    left: 153.98px;
+    top: 9.28px;
+    left: 409.78px;
     border-radius: 5px;
-    background-color: #f8f8f8;
-    width: 270.6px;
-    height: 23.4px;
+    background-color: #ffcb74;
+    width: 40.9px;
+    height: 23.7px;
 }
-.area-id {
+.save {
     position: absolute;
-    top: 43.07px;
-    left: 24px;
-    font-weight: 600;
+    border: none;
+    top: 13.59px;
+    left: 411px;
+    font-size: 10px;
     display: inline-block;
-    width: 96.3px;
-    height: 16.3px;
+    color: #303030;
+    background-color: #ffcb74;
+    width: 33.5px;
+    height: 15.1px;
+    font-family: 'Poppins';
 }
 .group-child1 {
     position: absolute;
-    top: 70.57px;
-    left: 153.98px;
+    top: 57.1px;
+    left: 161.38px;
     border-radius: 5px;
     background-color: #f8f8f8;
-    width: 270.6px;
-    height: 23.4px;
+    width: 283.6px;
+    height: 25.2px;
+    font-family: 'Poppins';
 }
-.area-name {
+.rent-id {
     position: absolute;
-    top: 74px;
-    left: 24px;
+    top: 61.49px;
+    left: 25.15px;
     font-weight: 600;
     display: inline-block;
-    width: 99px;
-    height: 17px;
+    width: 100.9px;
+    height: 17.6px;
 }
 .group-child2 {
     position: absolute;
-    top: 102.15px;
-    left: 153.98px;
+    top: 91.12px;
+    left: 161.38px;
     border-radius: 5px;
     background-color: #f8f8f8;
-    width: 270.6px;
-    height: 23.4px;
+    width: 283.6px;
+    height: 25.2px;
+    font-family: 'Poppins';
 }
-.type-name {
+.renter-id {
     position: absolute;
-    top: 106.22px;
-    left: 24.07px;
+    top: 95.23px;
+    left: 25.02px;
     font-weight: 600;
     display: inline-block;
-    width: 98.8px;
-    height: 16.3px;
+    width: 89.1px;
+    height: 18.3px;
 }
 .group-child3 {
     position: absolute;
-    top: 133.72px;
-    left: 152.91px;
+    top: 125.14px;
+    left: 161.38px;
     border-radius: 5px;
     background-color: #f8f8f8;
-    width: 270.6px;
-    height: 23.4px;
+    width: 283.6px;
+    height: 25.2px;
+    font-family: 'Poppins';
 }
-.size {
+.area-id {
     position: absolute;
-    top: 137.8px;
-    left: 23px;
+    top: 129.53px;
+    left: 25.23px;
     font-weight: 600;
     display: inline-block;
-    width: 98.8px;
-    height: 16.3px;
+    width: 103.5px;
+    height: 17.6px;
 }
 .group-child4 {
     position: absolute;
-    top: 165.42px;
-    left: 152.91px;
+    top: 159.16px;
+    left: 160.26px;
     border-radius: 5px;
     background-color: #f8f8f8;
-    width: 270.6px;
-    height: 23.4px;
+    width: 283.6px;
+    height: 25.2px;
+    font-family: 'Poppins';
 }
-.price {
+.rent-started {
     position: absolute;
-    top: 169.5px;
-    left: 23px;
+    top: 163.55px;
+    left: 24.11px;
     font-weight: 600;
     display: inline-block;
-    width: 98.8px;
-    height: 16.3px;
+    width: 103.5px;
+    height: 17.6px;
 }
 .group-child5 {
     position: absolute;
-    top: 197px;
-    left: 152.91px;
+    top: 193.31px;
+    left: 160.26px;
     border-radius: 5px;
     background-color: #f8f8f8;
-    width: 270.6px;
-    height: 23.4px;
+    width: 283.6px;
+    height: 25.2px;
+    font-family: 'Poppins';
+}
+.rent-ended {
+    position: absolute;
+    top: 197.7px;
+    left: 24.11px;
+    font-weight: 600;
+    display: inline-block;
+    width: 103.5px;
+    height: 17.6px;
+}
+
+.group-child6 {
+    position: absolute;
+    top: 227.31px;
+    left: 160.26px;
+    border-radius: 5px;
+    background-color: #f8f8f8;
+    width: 283.6px;
+    height: 25.2px;
+    font-family: 'Poppins';
 }
 .description {
     position: absolute;
-    top: 201.07px;
-    left: 23px;
+    top: 231.7px;
+    left: 24.11px;
     font-weight: 600;
     display: inline-block;
-    width: 98.8px;
-    height: 16.3px;
+    width: 103.5px;
+    height: 17.6px;
 }
-.rectangle-parent {
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    width: 448.8px;
-    height: 238.3px;
-}
-.management-area-log-inner {
-    position: absolute;
-    top: 534px;
-    left: 181px;
-    width: 448.8px;
-    height: 238.3px;
-}
-.group-child6 {
+.group-inner1 {
     position: absolute;
     top: 0px;
     left: 0px;
     border-radius: 17px;
     background-color: #303030;
-    width: 439px;
-    height: 238.3px;
-}
-.group-child7 {
-    position: absolute;
-    top: 15.59px;
-    left: 381.8px;
-    border-radius: 5px;
-    background-color: #ffcb74;
-    width: 38.9px;
-    height: 24px;
-}
-.save1 {
-    position: absolute;
-    top: 20.59px;
-    left: 388.11px;
-    display: inline-block;
-    width: 32.6px;
-    height: 14px;
+    width: 437.6px;
+    height: 273.8px;
+    font-family: 'Poppins';
 }
 .rectangle-group {
     position: absolute;
     top: 0px;
     left: 0px;
-    width: 439px;
-    height: 238.3px;
+    width: 470.3px;
+    height: 256.8px;
 }
-.group-wrapper {
+.management-rent-logs-inner {
+    position: absolute;
+    top: 502px;
+    left: 171px;
+    width: 470.3px;
+    height: 320px;
+}
+/* Edit User section adjustments */
+.group-child13 {
+    position: absolute;
+    top: 227.31px;
+    left: 150.91px;
+    border-radius: 5px;
+    background-color: #f8f8f8;
+    width: 262px;
+    height: 24.8px;
+    font-family: 'Poppins';
+}
+
+.edit-user {
+    position: absolute;
+    top: 15.14px;
+    left: 17.79px;
+    display: inline-block;
+    width: 157px;
+    height: 18.1px;
+}
+.group-child7 {
+    position: absolute;
+    top: 16.8px;
+    left: 380.56px;
+    border-radius: 5px;
+    background-color: #ffcb74;
+    width: 38.8px;
+    height: 25.9px;
+    font-family: 'Poppins';
+}
+.save1 {
+    position: absolute;
+    border: none;
+    top: 22.19px;
+    left: 381px;
+    font-size: 10px;
+    display: inline-block;
+    color: #303030;
+    background-color: #ffcb74;
+    width: 32.5px;
+    height: 15.1px;
+    font-family: 'Poppins';
+}
+.rectangle-container {
     position: absolute;
     top: 0px;
     left: 0px;
-    width: 439px;
-    height: 238.3px;
-    font-size: 10px;
-    color: #303030;
-}
-.edit-area {
-    position: absolute;
-    top: 7.98px;
-    left: 26.99px;
+    width: 437.6px;
+    height: 256.8px;
     font-size: 22px;
-    display: inline-block;
     color: #ffcb74;
-    width: 161px;
-    height: 16.8px;
 }
 .group-child8 {
     position: absolute;
-    top: 38.14px;
-    left: 153.99px;
+    top: 57px;
+    left: 150.91px;
     border-radius: 5px;
     background-color: #f8f8f8;
-    width: 215px;
-    height: 23px;
+    width: 262px;
+    height: 24.8px;
+    font-family: 'Poppins';
 }
-.area-id1 {
+.rent-id1 {
     position: absolute;
-    top: 42px;
-    left: 34.99px;
+    top: 61.31px;
+    left: 25.14px;
     font-weight: 600;
     display: inline-block;
-    width: 96.3px;
-    height: 16.3px;
+    width: 93.3px;
+    height: 17.2px;
 }
 .group-child9 {
     position: absolute;
-    top: 70.14px;
-    left: 153.99px;
+    top: 91.48px;
+    left: 150.91px;
     border-radius: 5px;
     background-color: #f8f8f8;
-    width: 215px;
-    height: 23px;
+    width: 262px;
+    height: 24.8px;
+    font-family: 'Poppins';
 }
-.area-name1 {
+.renter-id1 {
     position: absolute;
-    top: 72.93px;
-    left: 34.99px;
+    top: 94.71px;
+    left: 25.14px;
     font-weight: 600;
     display: inline-block;
-    width: 99px;
-    height: 17px;
+    width: 81.7px;
+    height: 18.3px;
 }
 .group-child10 {
     position: absolute;
-    top: 101.14px;
-    left: 153.99px;
+    top: 124.88px;
+    left: 150.91px;
     border-radius: 5px;
     background-color: #f8f8f8;
-    width: 215px;
-    height: 24px;
+    width: 262px;
+    height: 25.9px;
+    font-family: 'Poppins';
 }
-.type-name1 {
+.area-id1 {
     position: absolute;
-    top: 105.15px;
-    left: 35.06px;
+    top: 129.19px;
+    left: 25.14px;
     font-weight: 600;
     display: inline-block;
-    width: 98.8px;
-    height: 16.3px;
+    width: 95.4px;
+    height: 18.3px;
 }
 .group-child11 {
     position: absolute;
-    top: 133.14px;
-    left: 152.99px;
+    top: 159.36px;
+    left: 149.86px;
     border-radius: 5px;
     background-color: #f8f8f8;
-    width: 215px;
-    height: 23px;
+    width: 262px;
+    height: 24.8px;
+    font-family: 'Poppins';
 }
-.size1 {
+.rent-started1 {
     position: absolute;
-    top: 136.73px;
-    left: 33.99px;
+    top: 163.75px;
+    left: 24.09px;
     font-weight: 600;
     display: inline-block;
-    width: 98.8px;
-    height: 16.3px;
+    width: 112.1px;
+    height: 17.2px;
 }
 .group-child12 {
     position: absolute;
-    top: 164.14px;
-    left: 152.99px;
+    top: 192.76px;
+    left: 149.86px;
     border-radius: 5px;
     background-color: #f8f8f8;
-    width: 215px;
-    height: 24px;
+    width: 262px;
+    height: 25.9px;
+    font-family: 'Poppins';
 }
-.price1 {
+.rent-ended1 {
     position: absolute;
-    top: 168.43px;
-    left: 33.99px;
+    top: 197.07px;
+    left: 24.09px;
     font-weight: 600;
     display: inline-block;
-    width: 98.8px;
-    height: 16.3px;
+    width: 95.4px;
+    height: 18.3px;
 }
+
+/* Edit User section adjustments */
 .group-child13 {
     position: absolute;
-    top: 196.14px;
-    left: 152.99px;
+    top: 227.31px;
+    left: 150.91px;
     border-radius: 5px;
     background-color: #f8f8f8;
-    width: 215px;
-    height: 23px;
+    width: 262px;
+    height: 24.8px;
+    font-family: 'Poppins';
 }
 .description1 {
     position: absolute;
-    top: 200px;
-    left: 33.99px;
+    top: 231.7px;
+    left: 24.09px;
     font-weight: 600;
     display: inline-block;
-    width: 98.8px;
-    height: 16.3px;
+    width: 95.4px;
+    height: 18.3px;
 }
 .group-parent {
     position: absolute;
-    top: 535.02px;
-    left: 643.01px;
-    width: 439px;
-    height: 238.3px;
+    top: 503.1px;
+    left: 655.21px;
+    width: 437.6px;
+    height: 256.8px;
 }
 .text {
     flex: 1;
@@ -428,12 +447,12 @@
     font-size: 14px;
     font-family: Poppins;
 }
-.text6 {
+.text5 {
     flex: 1;
     position: relative;
     line-height: 130%;
 }
-.cell6 {
+.cell5 {
     align-self: stretch;
     flex: 1;
     background-color: rgba(255, 255, 255, 0);
@@ -455,16 +474,23 @@
     justify-content: flex-start;
 }
 .table {
-    position: absolute;
-    top: 109px;
-    left: 71px;
+    align-self: stretch;
+    flex: 1;
     border-radius: 4px;
     background-color: #fff;
     border: 1px solid #b9b9b9;
-    box-sizing: border-box;
-    width: 1131px;
-    height: 398px;
     overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.table-2 {
+    position: absolute;
+    top: 110px;
+    left: 62px;
+    width: 1156px;
+    height: 366px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -473,15 +499,14 @@
     color: #000;
     font-family: Inter;
 }
-.management-area-log {
+.management-rent-logs {
     width: 100%;
     position: relative;
     background-color: #303030;
-    height: 800px;
+    min-height: 100vh;
     overflow: hidden;
     text-align: left;
     font-size: 14px;
     color: #f6f6f6;
     font-family: Poppins;
 }
-

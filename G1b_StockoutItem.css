@@ -6,6 +6,79 @@ body {
     font-family: 'Poppins', sans-serif;
     background-color: #303030;
 }
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover, a:visited, a:active {
+    text-decoration: none;
+    color: inherit;
+}
+.dropdown-container {
+    position: relative;
+    top: 130px;
+    left: 76px;
+}
+
+
+.dropdown-btn {
+    position: relative;
+    background: #303030;
+    text-align: left;
+    color: #f3f3f3;
+    border: none;
+    padding: 5px 15px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 10px;
+    font-family: Poppins;
+    top: 120px;
+    width: 500px;
+    left: 76px;
+
+}
+
+
+.dropdown-menu {
+    z-index: 2;
+    display: none;
+    position: relative;
+    background: #303030;
+    list-style: none;
+    font-size: 16px;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 0;
+    margin: 0;
+    height: 200px;
+    width: 300px;
+    top: 100px;
+    left: 300px;
+    font-family: Poppins;
+}
+.down-icon {
+    position: absolute;
+    z-index: 1;
+    top: 138px;
+    left: 545px;
+    width: 20px;
+    height: 20px;
+    overflow: auto;
+}
+
+
+.dropdown-menu li {
+    padding: 10px;
+}
+
+.dropdown-menu li a {
+    text-decoration: none;
+    color: #f6f6f6;
+
+}
+
 .group-child {
     position: absolute;
     top: 0px;
@@ -54,39 +127,8 @@ body {
     height: 17.8px;
     text-shadow: -2px 2px 0px rgba(0, 0, 0, 0.25);
 }
-.group-inner {
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    background-color: #303030;
-    width: 505.8px;
-    height: 31.7px;
-}
-.chevron-down-icon {
-    position: absolute;
-    top: 0px;
-    left: 459px;
-    width: 36.6px;
-    height: 26px;
-    overflow: hidden;
-}
-.renter-1 {
-    position: absolute;
-    top: 3.17px;
-    left: 11.49px;
-    line-height: 130%;
-    display: inline-block;
-    width: 259.2px;
-    height: 25.3px;
-}
-.rectangle-group {
-    position: absolute;
-    top: 133px;
-    left: 75px;
-    width: 505.8px;
-    height: 31.7px;
-    font-size: 18px;
-}
+
+
 .text {
     flex: 1;
     position: relative;

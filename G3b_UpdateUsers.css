@@ -5,6 +5,13 @@ body {
     font-family: 'Poppins';
     background-color: #303030;
 }
+.delete-user-input {
+    width: 100%;
+    padding: 8px;
+    margin-top: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
 .group-child {
     position: absolute;
     top: 0px;
@@ -13,6 +20,7 @@ body {
     background-color: #303030;
     width: 1280px;
     height: 800px;
+    font-family: 'Poppins';
 }
 .group-item {
     position: absolute;
@@ -23,6 +31,7 @@ body {
     background-color: #f6f6f6;
     width: 100%;
     height: 100vh;
+    font-family: 'Poppins';
 }
 .management-update-users-child {
     position: absolute;
@@ -72,6 +81,7 @@ body {
     width: 166.5px;
     height: 23.1px;
 }
+
 .rectangle-div {
     position: absolute;
     top: 0px;
@@ -81,13 +91,39 @@ body {
     width: 53.8px;
     height: 27.1px;
 }
-.save {
+.delete-button {
     position: absolute;
+    border: none;
+    color:#303030;
+    background-color: #ffcb74;
     top: 4.01px;
-    left: 8.02px;
+    left: 4px;
     display: inline-block;
     width: 40.1px;
     height: 17.1px;
+    font-family: Poppins;
+}
+.delete-container {
+    z-index: 2;
+    position: absolute;
+    top: 149.8px;
+    left: 27px;
+    width: 53.8px;
+    height: 27.1px;
+    font-size: 14px;
+    color: #303030;
+}
+.save {
+    position: absolute;
+    border: none;
+    color:#303030;
+    background-color: #ffcb74;
+    top: 4.01px;
+    left: 4px;
+    display: inline-block;
+    width: 40.1px;
+    height: 17.1px;
+    font-family: Poppins;
 }
 .rectangle-container {
     position: absolute;
@@ -106,6 +142,7 @@ body {
     background-color: #f8f8f8;
     width: 247.2px;
     height: 19.1px;
+    font-family: 'Poppins';
 }
 .group-child2 {
     position: absolute;
@@ -115,6 +152,7 @@ body {
     background-color: #f8f8f8;
     width: 247.2px;
     height: 19.1px;
+    font-family: 'Poppins';
 }
 .group-child3 {
     position: absolute;
@@ -124,6 +162,7 @@ body {
     background-color: #f8f8f8;
     width: 247.2px;
     height: 19.1px;
+    font-family: 'Poppins';
 }
 .group-child4 {
     position: absolute;
@@ -133,6 +172,7 @@ body {
     background-color: #f8f8f8;
     width: 247.2px;
     height: 19.1px;
+    font-family: 'Poppins';
 }
 .group-child5 {
     position: absolute;
@@ -142,6 +182,7 @@ body {
     background-color: #f8f8f8;
     width: 247.2px;
     height: 19.1px;
+    font-family: 'Poppins';
 }
 .group-child6 {
     position: absolute;
@@ -151,6 +192,7 @@ body {
     background-color: #f8f8f8;
     width: 247.2px;
     height: 19.1px;
+    font-family: 'Poppins';
 }
 .group-child7 {
     position: absolute;
@@ -160,6 +202,7 @@ body {
     background-color: #f8f8f8;
     width: 247.2px;
     height: 19.1px;
+    font-family: 'Poppins';
 }
 .user-id {
     position: absolute;
@@ -253,6 +296,7 @@ body {
     background-color: #303030;
     width: 205.8px;
     height: 274.9px;
+    font-family: 'Poppins';
 }
 .group-child18 {
     position: absolute;
@@ -262,6 +306,7 @@ body {
     background-color: #f8f8f8;
     width: 155.1px;
     height: 18.1px;
+    font-family: 'Poppins';
 }
 .group-child19 {
     position: absolute;
@@ -271,6 +316,17 @@ body {
     background-color: #ffcb74;
     width: 67.3px;
     height: 23.8px;
+    font-family: 'Poppins';
+}
+.group-child20 {
+    position: absolute;
+    top: 128.41px;
+    left: 21px;
+    border-radius: 5px;
+    background-color: #f8f8f8;
+    width: 157px;
+    height: 18px;
+    font-family: 'Poppins';
 }
 .user-id2 {
     position: absolute;

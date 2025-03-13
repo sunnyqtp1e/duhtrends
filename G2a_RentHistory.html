@@ -18,17 +18,25 @@
       			<div class="update-stock-pop-up-wrapper">
         				<div class="update-stock-pop-up-wrapper">
           					<div class="group-child">
+								
           					</div>
           					<div class="group-item">
+								
           					</div>
         				</div>
       			</div>
     		</div>
+			<img class="down-icon" alt="" src="down-icon.png">
+			<button class="dropdown-btn" onclick="toggleDropdown()">RENTER 1</button>
+				  <ul class="dropdown-menu" id="dropdownMenu">
+    		</ul>
     		
-    		<img class="management-rental-history-child" alt="" src="back-icon.png">
     		
     		<b class="rent-history">Rent History</b>
+			<a href="D3a_RentPayTrack.html">
     		<b class="back-to-rent">Back to Rent Payment Tracking</b>
+			<img class="management-rental-history-child" alt="" src="back-icon.png"></a>
+			
     		<div class="table">
       			<div class="row">
         				<div class="cell">
@@ -89,6 +97,134 @@
           					</div>
         				</div>
       			</div>
+				  <div class="row1">
+					<div class="cell5">
+						  <div class="content">
+								<div class="text5">
+								</div>
+						  </div>
+					</div>
+					<div class="cell5">
+						  <div class="content">
+								<div class="text5">
+								</div>
+						  </div>
+					</div>
+					<div class="cell5">
+						  <div class="content">
+								<div class="text5">
+								</div>
+						  </div>
+					</div>
+					<div class="cell5">
+						  <div class="content">
+								<div class="text5">
+								</div>
+						  </div>
+					</div>
+					<div class="cell5">
+						  <div class="content">
+								<div class="text5">
+								</div>
+						  </div>
+					</div>
+			  </div>
+			  <div class="row1">
+				<div class="cell5">
+					  <div class="content">
+							<div class="text5">
+							</div>
+					  </div>
+				</div>
+				<div class="cell5">
+					  <div class="content">
+							<div class="text5">
+							</div>
+					  </div>
+				</div>
+				<div class="cell5">
+					  <div class="content">
+							<div class="text5">
+							</div>
+					  </div>
+				</div>
+				<div class="cell5">
+					  <div class="content">
+							<div class="text5">
+							</div>
+					  </div>
+				</div>
+				<div class="cell5">
+					  <div class="content">
+							<div class="text5">
+							</div>
+					  </div>
+				</div>
+		  </div>
+		  <div class="row1">
+			<div class="cell5">
+				  <div class="content">
+						<div class="text5">
+						</div>
+				  </div>
+			</div>
+			<div class="cell5">
+				  <div class="content">
+						<div class="text5">
+						</div>
+				  </div>
+			</div>
+			<div class="cell5">
+				  <div class="content">
+						<div class="text5">
+						</div>
+				  </div>
+			</div>
+			<div class="cell5">
+				  <div class="content">
+						<div class="text5">
+						</div>
+				  </div>
+			</div>
+			<div class="cell5">
+				  <div class="content">
+						<div class="text5">
+						</div>
+				  </div>
+			</div>
+	  </div>
+	  <div class="row1">
+		<div class="cell5">
+			  <div class="content">
+					<div class="text5">
+					</div>
+			  </div>
+		</div>
+		<div class="cell5">
+			  <div class="content">
+					<div class="text5">
+					</div>
+			  </div>
+		</div>
+		<div class="cell5">
+			  <div class="content">
+					<div class="text5">
+					</div>
+			  </div>
+		</div>
+		<div class="cell5">
+			  <div class="content">
+					<div class="text5">
+					</div>
+			  </div>
+		</div>
+		<div class="cell5">
+			  <div class="content">
+					<div class="text5">
+					</div>
+			  </div>
+		</div>
+  </div>
       			<div class="row1">
         				<div class="cell5">
           					<div class="content">
@@ -506,17 +642,23 @@
         				</div>
       			</div>
     		</div>
-    		<div class="rectangle-group">
-      			<div class="group-inner">
-      			</div>
-      			<img class="chevron-down-icon" alt="" src="down-icon.png">
-      			
-      			<b class="renter-1">RENTER 1</b>
-    		</div>
-  	</div>
+    	
   	
-  	
-  	
+  	<script>
+		function toggleDropdown() {
+			document.getElementById("dropdownMenu").classList.toggle("show");
+		}
+		
+		// Close dropdown if clicked outside
+		document.addEventListener("click", function(event) {
+			var dropdown = document.querySelector(".dropdown");
+			if (!dropdown.contains(event.target)) {
+				document.getElementById("dropdownMenu").classList.remove("show");
+			}
+		});
+		</script>
+
+
   	
 </body>
 </html>

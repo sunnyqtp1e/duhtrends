@@ -6,7 +6,85 @@ body {
     font-family: 'Poppins';
     background-color: #303030;
 }
+a {
+    text-decoration: none;
+    color: inherit;
+}
 
+a:hover, a:visited, a:active {
+    text-decoration: none;
+    color: inherit;
+}
+.dropdown-container {
+    position: relative;
+    display:inline-block;
+    top: 130px;
+    left: 76px;
+}
+
+
+.dropdown-btn {
+    position: relative;
+    background: #303030;
+    text-align: left;
+    color: #f3f3f3;
+    border: none;
+    padding: 5px 15px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 10px;
+    font-family: Poppins;
+    top: 120px;
+    width: 500px;
+    left: 76px;
+
+}
+
+
+.dropdown-menu {
+    z-index: 2;
+    display: none;
+    position: relative;
+    background: #303030;
+    list-style: none;
+    font-size: 16px;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 0;
+    margin: 0;
+    height: 200px;
+    width: 300px;
+    top: 100px;
+    left: 300px;
+    font-family: Poppins;
+}
+.down-icon {
+    position: absolute;
+    z-index: 1;
+    top: 138px;
+    left: 545px;
+    width: 20px;
+    height: 20px;
+    overflow: auto;
+}
+
+
+.dropdown-menu li {
+    padding: 10px;
+}
+
+.dropdown-menu li a {
+    text-decoration: none;
+    color: #f6f6f6;
+
+}
+
+
+.dropdown-menu.show {
+    z-index: 1;
+    display: block;
+}
 .group-child {
     position: absolute;
     top: 0px;
@@ -135,39 +213,8 @@ body {
     color: #000;
     font-family: Poppins;
 }
-.group-inner {
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    background-color: #303030;
-    width: 517.6px;
-    height: 30px;
-}
-.chevron-down-icon {
-    position: absolute;
-    top: 0px;
-    left: 470px;
-    width: 37.4px;
-    height: 30px;
-    overflow: hidden;
-}
-.renter-1 {
-    position: absolute;
-    top: 3px;
-    left: 11.76px;
-    line-height: 130%;
-    display: inline-block;
-    width: 265.2px;
-    height: 24px;
-}
-.rectangle-group {
-    position: absolute;
-    top: 126px;
-    left: 80.21px;
-    width: 517.6px;
-    height: 30px;
-    font-size: 18px;
-}
+
+
 .management-rental-history {
     width: 100%;
     position: relative;

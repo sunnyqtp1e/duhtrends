@@ -14,9 +14,11 @@
 <body>
   	
   	<div class="management-stockout-item">
+		
     		<div class="update-stock-pop-up-wrapper">
       			<div class="update-stock-pop-up-wrapper">
         				<div class="update-stock-pop-up-wrapper">
+							
           					<div class="group-child">
           					</div>
           					<div class="group-item">
@@ -24,17 +26,27 @@
         				</div>
       			</div>
     		</div>
+			<img class="down-icon" alt="" src="down-icon.png">
+			<button class="dropdown-btn" onclick="toggleDropdown()">RENTER 1</button>
+				  <ul class="dropdown-menu" id="dropdownMenu">
+				  </ul>
+	
+
+			<a href="D2a_InvOverview.html">
     		<img class="management-stockout-item-child" alt="" src="back-icon.png">
+			<b class="back-to-inventory">Back to Inventory Overview</b></a>
     		
     		
     		<b class="stockout-item">Stockout Item</b>
-    		<b class="back-to-inventory">Back to Inventory Overview</b>
-    		<div class="rectangle-group">
-      			<div class="group-inner">
+    		
+
+			
       			</div>
-      			<img class="chevron-down-icon" alt="" src="down-icon.png">
+				  
+			  </div>
       			
-      			<b class="renter-1">RENTER 1</b>
+			  
+      		
     		</div>
     		<div class="staff-inventory-overview">
       			<div class="table">
@@ -516,7 +528,19 @@
       			</div>
     		</div>
   	</div>
-  	
+	  <script>
+		function toggleDropdown() {
+			document.getElementById("dropdownMenu").classList.toggle("show");
+		}
+		
+		// Close dropdown if clicked outside
+		document.addEventListener("click", function(event) {
+			var dropdown = document.querySelector(".dropdown");
+			if (!dropdown.contains(event.target)) {
+				document.getElementById("dropdownMenu").classList.remove("show");
+			}
+		});
+		</script>
   	
   	
   	

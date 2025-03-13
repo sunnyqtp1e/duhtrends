@@ -5,6 +5,56 @@ body {
     background-attachment: fixed;
     font-family: Poppins;
 }
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover, a:visited, a:active {
+    text-decoration: none;
+    color: inherit;
+}
+.search-bar {
+    z-index: 4;
+    width: 250px;
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+    background-color: #333; 
+    color: white;
+    outline: none;
+    font-size: 14px;
+    padding-left: 40px;
+    position: relative;
+    font-family: Poppins;
+}
+.search-text-field {
+    z-index: 4;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border-radius: 22px;
+    background-color: #303030;
+    width: 437px;
+    height: 41px;
+}
+.search-icon {
+    z-index: 4;
+    position: absolute;
+    top: 6px;
+    left: 10px;
+    width: 28px;
+    height: 28px;
+    object-fit: cover;
+}
+.search-group {
+    z-index: 4;
+    position: fixed;
+    top: 138px;
+    left: 620px;
+    width: 550px;
+    height: 41px;
+}
 .management-dashboard-general-child {
     position: absolute;
     top: 178px;
@@ -35,15 +85,6 @@ body {
     width: 940px;
     height: 49px;
     text-shadow: 1px 0 0 #303030, 0 1px 0 #303030, -1px 0 0 #303030, 0 -1px 0 #303030;
-}
-.management-dashboard-general-inner {
-    position: absolute;
-    top: 130px;
-    left: 540px;
-    border-radius: 22px;
-    background-color: #303030;
-    width: 437px;
-    height: 41px;
 }
 .rectangle-div {
     position: absolute;
