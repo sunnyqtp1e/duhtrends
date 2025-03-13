@@ -366,7 +366,14 @@
       			<div class="group-child">
       			</div>
       			
-      			<b class="renter-1">RENTER 1</b>
+				  <div class="dropdown">
+					<button class="dropdown-btn" onclick="toggleDropdown()">RENTER 1</button>
+					<ul class="dropdown-menu" id="dropdownMenu">
+						<li><a href="#">Renter 1</a></li>
+						<li><a href="#">Renter 2</a></li>
+						<li><a href="#">Renter 3</a></li>
+					</ul>
+				</div>
     		</div>
     		<div class="rectangle-group">
       			<div class="group-item">
@@ -421,7 +428,19 @@
     		<b class="duh-trends-palas">DUH TRENDS PALAS</b>
   	</div>
   	
-  	
+	  <script>
+		function toggleDropdown() {
+			document.getElementById("dropdownMenu").classList.toggle("show");
+		}
+		
+		// Close dropdown if clicked outside
+		document.addEventListener("click", function(event) {
+			var dropdown = document.querySelector(".dropdown");
+			if (!dropdown.contains(event.target)) {
+				document.getElementById("dropdownMenu").classList.remove("show");
+			}
+		});
+		</script>
   	
   	
 </body>

@@ -5,6 +5,69 @@ body {
     background-attachment: fixed;
     font-family: Poppins;
 }
+/* Dropdown container */
+.dropdown {
+    display: inline-block;
+}
+
+/* Dropdown button */
+.dropdown-btn {
+    position: fixed;
+    background: #303030;
+    text-align: left;
+    color: #f3f3f3;
+    border: none;
+    padding: 5px 15px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 10px;
+    font-family: Poppins;
+    top: 159px;
+    width: 525px;
+    left: 300px;
+
+}
+
+/* Dropdown menu (hidden by default) */
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    background: #303030;
+    list-style: none;
+    font-size: 16px;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 0;
+    margin: 0;
+    width: 150px;
+    font-family: Poppins;
+}
+.down-icon {
+    position: absolute;
+    z-index: 1;
+    top: 158px;
+    left: 790px;
+    width: 20px;
+    height: 20px;
+    overflow: auto;
+}
+
+/* Dropdown items */
+.dropdown-menu li {
+    padding: 10px;
+}
+
+.dropdown-menu li a {
+    text-decoration: none;
+    color: #f6f6f6;
+    display: block;
+}
+
+/* Show dropdown when active */
+.dropdown-menu.show {
+    display: block;
+}
 .input-container {
     display: flex;
     flex-direction: column;
@@ -142,15 +205,7 @@ a:hover, a:visited, a:active {
     width: 484px;
     height: 30px;
 }
-.down-icon {
-    position: absolute;
-    z-index: 1;
-    top: 158px;
-    left: 753px;
-    width: 20px;
-    height: 20px;
-    overflow: auto;
-}
+
 .renter-1 {
     position: absolute;
     top: 3px;
@@ -426,6 +481,7 @@ a:hover, a:visited, a:active {
     cursor: pointer;
     font-family: Poppins;
 }
+
 .submit-button {
     position: absolute;
     top: 700px;

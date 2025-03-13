@@ -14,6 +14,70 @@ a:hover, a:visited, a:active {
     text-decoration: none;
     color: inherit;
 }
+/* Dropdown container */
+.dropdown {
+    display: inline-block;
+}
+
+/* Dropdown button */
+.dropdown-btn {
+    position: fixed;
+    background: #303030;
+    text-align: left;
+    color: #f3f3f3;
+    border: none;
+    padding: 5px 15px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 10px;
+    font-family: Poppins;
+    top: 180px;
+    width: 500px;
+    left: 310px;
+
+}
+
+/* Dropdown menu (hidden by default) */
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    background: #303030;
+    list-style: none;
+    font-size: 16px;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 0;
+    margin: 0;
+    width: 150px;
+    font-family: Poppins;
+}
+.down-icon {
+    position: absolute;
+    z-index: 1;
+    top: 188px;
+    left: 775px;
+    width: 20px;
+    height: 20px;
+    overflow: auto;
+}
+
+/* Dropdown items */
+.dropdown-menu li {
+    padding: 10px;
+}
+
+.dropdown-menu li a {
+    text-decoration: none;
+    color: #f6f6f6;
+    display: block;
+}
+
+/* Show dropdown when active */
+.dropdown-menu.show {
+    z-index: 1;
+    display: block;
+}
 .payment-icon {
     position: absolute;
     top: 456px;
@@ -147,15 +211,7 @@ a:hover, a:visited, a:active {
     width: 484px;
     height: 30px;
 }
-.down-icon {
-    position: absolute;
-    z-index: 2;
-    top: 187px;
-    left: 764px;
-    width: 20px;
-    height: 20px;
-    overflow: auto;
-}
+
 .renter-1 {
     position: absolute;
     top: 3px;
@@ -354,6 +410,7 @@ a:hover, a:visited, a:active {
     text-align: center;
     width: 160px;
     height: 66px;
+    color:#f6f6f6;
     text-shadow: -2px 2px 0px rgba(0, 0, 0, 0.25);
 }
 .rent-payment-log {

@@ -57,14 +57,20 @@
       			<b class="out-of-stock">Low on Stock</b>
     		</div>
     		<div class="group-parent">
-      			<div class="rectangle-parent">
-        				<div class="group-child">
-        				</div>
-        				<div class="group-item">
-        				</div>
-        				<div class="renter-1">RENTER 1</div>
-      			</div>
-      			<img class="down-icon" alt="" src="down1-icon.png">
+		
+					
+					  <div class="group-item"></div>
+						<div class="dropdown">
+							<button class="dropdown-btn" onclick="toggleDropdown()">RENTER 1 ▼</button>
+							<ul class="dropdown-menu" id="dropdownMenu">
+								<li><a href="#">Renter 1</a></li>
+								<li><a href="#">Renter 2</a></li>
+								<li><a href="#">Renter 3</a></li>
+							</ul>
+						</div>
+						
+					
+      	
       			
     		</div>
     		<div class="stock-display">
@@ -81,7 +87,20 @@
     		</div>
   	</div>
   	
-  	
+  	<script>
+		function toggleDropdown() {
+			document.getElementById("dropdownMenu").classList.toggle("show");
+		}
+		
+		// Close dropdown if clicked outside
+		document.addEventListener("click", function(event) {
+			var dropdown = document.querySelector(".dropdown");
+			if (!dropdown.contains(event.target)) {
+				document.getElementById("dropdownMenu").classList.remove("show");
+			}
+		});
+		</script>
+		
   	
   	
 </body>
