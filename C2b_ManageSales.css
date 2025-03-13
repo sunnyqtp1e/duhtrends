@@ -33,6 +33,7 @@ body {
 .dropdown-menu {
     display: none;
     position: absolute;
+    left: 60%;
     background: #303030;
     list-style: none;
     font-size: 16px;
@@ -40,7 +41,8 @@ body {
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     padding: 0;
     margin: 0;
-    width: 150px;
+    width: 250px;
+    height: 100px;
     font-family: Poppins;
 }
 .down-icon {
@@ -69,9 +71,8 @@ body {
     display: block;
 }
 .input-container {
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 15px;
+    position: absolute;
+    
 }
 a {
     text-decoration: none;
@@ -254,8 +255,8 @@ a:hover, a:visited, a:active {
 }
 
 .quantity-sold-text {
-    top: 589px;
-    left: 538.5px;
+    top: 640px;
+    left: 500px;
     width: 250px;
     padding: 10px;
     border: none;
@@ -264,29 +265,14 @@ a:hover, a:visited, a:active {
     color: #303030;
     outline: none;
     font-size: 14px;
-    padding-left: 40px;
-    position: relative;
+    padding-left: 20px;
+    position: absolute;
     font-family: Poppins;
-}
-.item-name-text {
-        top: 620px;
-        left: 540px;
-        width: 250px;
-        padding: 10px;
-        border: none;
-        border-radius: 10px;
-        background-color: #f6f6f6; 
-        color: #303030;
-        outline: none;
-        font-size: 14px;
-        padding-left: 40px;
-        position: relative;
-        font-family: Poppins;
 }
 
 .item-id-text {
-    top: 526px;
-    left: 540px;
+    top: 580px;
+    left: 500px;
     width: 250px;
     padding: 10px;
     border: none;
@@ -295,8 +281,8 @@ a:hover, a:visited, a:active {
     color: #303030;
     outline: none;
     font-size: 14px;
-    padding-left: 40px;
-    position: relative;
+    padding-left: 20px;
+    position: absolute;
     font-family: Poppins;
 }
 .staff-manage-sales-child2 {
@@ -308,21 +294,10 @@ a:hover, a:visited, a:active {
     width: 305px;
     height: 36px;
 }
-.item-name {
-    position: absolute;
-    top: 625px;
-    left: calc(50% - 521px);
-    font-size: 16px;
-    line-height: 130%;
-    font-weight: 600;
-    display: inline-block;
-    width: 176px;
-    height: 26px;
-}
 .item-id {
     position: absolute;
-    top: 573px;
-    left: calc(50% - 521px);
+    top: 590px;
+    left: 360px;
     font-size: 16px;
     line-height: 130%;
     font-weight: 600;
@@ -332,8 +307,8 @@ a:hover, a:visited, a:active {
 }
 .quantity-sold {
     position: absolute;
-    top: 680px;
-    left: calc(50% - 521px);
+    top: 654px;
+    left: 356px;
     font-size: 16px;
     line-height: 130%;
     font-weight: 600;

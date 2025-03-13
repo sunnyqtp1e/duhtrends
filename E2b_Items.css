@@ -3,8 +3,53 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Poppins';
+    font-family: 'Poppins', sans-serif;
     background-color: #303030;
+    color: #f6f6f6;
+}
+
+.input-field {
+    width: 90%;
+    padding: 4px 4px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    background-color: #f8f8f8;
+    color: #303030;
+    font-size: 14px;
+    margin-bottom: 5px;
+    font-family: 'Poppins';
+}
+
+
+
+.rectangle-container,
+.rectangle-parent3,
+.rectangle-parent5 {
+    cursor: pointer;
+    padding: 0px;
+    margin-top: 10px;
+    background-color: #ffcb74;
+    text-align: center;
+    border-radius: 5px;
+    font-family: 'Poppins';
+   
+}
+
+.rectangle-container:hover,
+.rectangle-parent3:hover,
+.rectangle-parent5:hover {
+    background-color: #ffb84d;
+}
+
+.save, .delete1, .edit {
+    font-weight: bold;
+    color: #303030;
+}
+
+.add-item, .delete-item, .edit-item {
+    font-size: 18px;
+    margin-bottom: 5px;
 }
 a {
     text-decoration: none;
@@ -23,6 +68,7 @@ a:hover, a:visited, a:active {
     background-color: #303030;
     width: 100%;
     height: 100%;
+    font-family: 'Poppins';
 }
 .group-item {
     position: absolute;
@@ -33,6 +79,7 @@ a:hover, a:visited, a:active {
     background-color: #f6f6f6;
     width: 100%;
     height: 100%;
+    font-family: 'Poppins';
 }
 .items {
     position: absolute;
@@ -141,13 +188,12 @@ a:hover, a:visited, a:active {
     color: #ffcb74;
     width: 222.8px;
     height: 37.7px;
+    
 }
 .rectangle-div {
     position: absolute;
     top: 56px;
     left: 131.72px;
-    border-radius: 5px;
-    background-color: #f8f8f8;
     width: 209px;
     height: 23px;
 }
@@ -155,8 +201,6 @@ a:hover, a:visited, a:active {
     position: absolute;
     top: 93px;
     left: 131.72px;
-    border-radius: 5px;
-    background-color: #f8f8f8;
     width: 209px;
     height: 23px;
 }
@@ -164,8 +208,6 @@ a:hover, a:visited, a:active {
     position: absolute;
     top: 130px;
     left: 131.72px;
-    border-radius: 5px;
-    background-color: #f8f8f8;
     width: 209px;
     height: 23px;
 }
@@ -204,6 +246,7 @@ a:hover, a:visited, a:active {
     background-color: #ffcb74;
     width: 47px;
     height: 22px;
+    font-family: 'Poppins';
 }
 .save {
     position: absolute;
@@ -215,7 +258,7 @@ a:hover, a:visited, a:active {
 }
 .rectangle-container {
     position: absolute;
-    top: 13px;
+    top: 5px;
     left: 289.72px;
     width: 47px;
     height: 22px;
@@ -239,17 +282,14 @@ a:hover, a:visited, a:active {
     position: absolute;
     top: 67px;
     left: 121.24px;
-    border-radius: 5px;
-    background-color: #f8f8f8;
     width: 209px;
     height: 23px;
+    
 }
 .group-child6 {
     position: absolute;
     top: 108px;
     left: 121.24px;
-    border-radius: 5px;
-    background-color: #f8f8f8;
     width: 209px;
     height: 23px;
 }
@@ -262,6 +302,7 @@ a:hover, a:visited, a:active {
     color: #ffcb74;
     width: 223px;
     height: 27px;
+    font-family: 'Poppins';
 }
 .item-id1 {
     position: absolute;
@@ -304,13 +345,12 @@ a:hover, a:visited, a:active {
     background-color: #303030;
     width: 281.9px;
     height: 196.2px;
+    font-family: 'Poppins';
 }
 .group-child9 {
     position: absolute;
     top: 95.06px;
     left: 21.99px;
-    border-radius: 5px;
-    background-color: #f8f8f8;
     width: 225.1px;
     height: 26.6px;
 }
@@ -368,6 +408,7 @@ a:hover, a:visited, a:active {
     display: inline-block;
     width: 40px;
     height: 11px;
+    font-family: 'Poppins';
 }
 .rectangle-parent3 {
     position: absolute;
@@ -376,6 +417,7 @@ a:hover, a:visited, a:active {
     width: 59.1px;
     height: 23.7px;
     color: #303030;
+    font-family: 'Poppins';
 }
 .rectangle-parent2 {
     position: absolute;
@@ -383,6 +425,7 @@ a:hover, a:visited, a:active {
     left: 870.72px;
     width: 281.9px;
     height: 196.2px;
+    font-family: 'Poppins';
 }
 .update-stock-pop-up-wrapper {
     position: absolute;
@@ -416,6 +459,7 @@ a:hover, a:visited, a:active {
     height: 39px;
     font-size: 14px;
     color: #fff;
+    font-family: 'Poppins';
     
 }
 .renter-update-stock {

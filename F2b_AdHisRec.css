@@ -1,3 +1,46 @@
+.input-field {
+    width: 90%;
+    padding: 4px 4px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    background-color: #f8f8f8;
+    color: #303030;
+    font-size: 14px;
+    margin-bottom: 5px;
+    font-family: 'Poppins';
+}
+
+
+
+.rectangle-container,
+.rectangle-parent3,
+.rectangle-parent5 {
+    cursor: pointer;
+    padding: 0px;
+    margin-top: 10px;
+    background-color: #ffcb74;
+    text-align: center;
+    border-radius: 5px;
+    font-family: 'Poppins';
+   
+}
+
+.rectangle-container:hover,
+.rectangle-parent3:hover,
+.rectangle-parent5:hover {
+    background-color: #ffb84d;
+}
+
+.save, .delete1 {
+    font-weight: bold;
+    color: #303030;
+}
+
+.add-item, .delete-item, .edit-item {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
 body {
     margin: 0;
     padding: 0;
@@ -74,8 +117,7 @@ a:hover, a:visited, a:active {
     position: absolute;
     top: 60px;
     left: 182.19px;
-    border-radius: 5px;
-    background-color: #f8f8f8;
+
     width: 289.1px;
     height: 23px;
 }
@@ -83,8 +125,6 @@ a:hover, a:visited, a:active {
     position: absolute;
     top: 91px;
     left: 182.19px;
-    border-radius: 5px;
-    background-color: #f8f8f8;
     width: 289.1px;
     height: 23px;
 }
@@ -92,8 +132,6 @@ a:hover, a:visited, a:active {
     position: absolute;
     top: 122px;
     left: 182.19px;
-    border-radius: 5px;
-    background-color: #f8f8f8;
     width: 289.1px;
     height: 23px;
 }
@@ -101,8 +139,6 @@ a:hover, a:visited, a:active {
     position: absolute;
     top: 153px;
     left: 182.19px;
-    border-radius: 5px;
-    background-color: #f8f8f8;
     width: 289.1px;
     height: 23px;
 }
@@ -110,8 +146,6 @@ a:hover, a:visited, a:active {
     position: absolute;
     top: 184px;
     left: 182.19px;
-    border-radius: 5px;
-    background-color: #f8f8f8;
     width: 289.1px;
     height: 23px;
 }

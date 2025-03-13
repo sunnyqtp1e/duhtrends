@@ -327,19 +327,21 @@
             						<div class="group-inner">
             						</div>
             						<b class="add-item">ADD ITEM</b>
-            						<div class="rectangle-div">
-            						</div>
-            						<div class="group-child1">
-            						</div>
-            						<div class="group-child2">
-            						</div>
+									<div class="rectangle-div">
+										<input type="text" id="itemId" class="input-field" placeholder="Enter Item ID" />
+									</div>
+									<div class="group-child1">
+										<input type="text" id="itemName" class="input-field" placeholder="Enter Item Name" />
+									</div>
+									<div class="group-child2">
+										<input type="text" id="itemType" class="input-field" placeholder="Enter Item Type" />
+									</div>
             						<div class="item-id">Item_ID</div>
             						<div class="item-name">Item_Name</div>
             						<div class="item-type">Item_Type</div>
-            						<div class="rectangle-container">
-              							<div class="group-child3">
-              							</div>
-              							<b class="save">Save</b>
+            						<div class="rectangle-container" onclick="saveItem()">
+										<div class="group-child3"></div>
+										<div class="save">Save</div>
             						</div>
           					</div>
         				</div>
@@ -348,32 +350,34 @@
             						<div class="group-inner">
             						</div>
             						<div class="group-child5">
+										<input type="text" id="editItemName" class="input-field" placeholder="Enter Item ID to Edit" />
             						</div>
             						<div class="group-child6">
+										<input type="text" id="editItemType" class="input-field" placeholder="Enter New Item Name" />
             						</div>
             						<b class="edit-item">EDIT ITEM</b>
             						<div class="item-id1">Item_ID</div>
             						<div class="item-name1">Item_Name</div>
-            						<div class="rectangle-parent1">
+            						<div class="rectangle-parent1" onclick="saveItem()">
               							<div class="group-child3">
               							</div>
-              							<b class="save">Save</b>
+              							<div class="save">Save</div>
             						</div>
           					</div>
         				</div>
         				<div class="rectangle-parent2">
-          					<div class="group-child8">
-          					</div>
-          					<div class="group-child9">
-          					</div>
+							<div class="group-child8"></div>
+							
+							<div class="group-child9">
+								<input type="text" id="deleteItemId" class="input-field" placeholder="Enter Item ID to Delete" />
+							</div>
           					<div class="item-id2">Item_ID</div>
           					<div class="delete-an-item">Delete an item by Item_ID.</div>
           					<b class="delete">Delete</b>
           					<b class="delete-item">DELETE ITEM</b>
-          					<div class="rectangle-parent3">
-            						<div class="group-child10">
-            						</div>
-            						<b class="delete1">Delete</b>
+          					<div class="rectangle-parent3" onclick="deleteItem()">
+								<div class="group-child10"></div>
+								<div class="delete1">Delete</div>
           					</div>
         				</div>
       			</div>
@@ -386,7 +390,38 @@
     		</div>
   	</div>
   	
-  	
+  	<script>
+		// Save item function
+		function saveItem() {
+			const itemId = document.getElementById('itemId').value;
+			const itemName = document.getElementById('itemName').value;
+			const itemType = document.getElementById('itemType').value;
+	
+			if (itemId && itemName && itemType) {
+				console.log(`Saved Item -> ID: ${itemId}, Name: ${itemName}, Type: ${itemType}`);
+				alert(`Item Saved!\nID: ${itemId}\nName: ${itemName}\nType: ${itemType}`);
+				// Clear fields after saving
+				document.getElementById('itemId').value = '';
+				document.getElementById('itemName').value = '';
+				document.getElementById('itemType').value = '';
+			} else {
+				alert('Please fill in all fields before saving.');
+			}
+		}
+	
+		// Delete item function
+		function deleteItem() {
+			const deleteId = document.getElementById('deleteItemId').value;
+	
+			if (deleteId) {
+				console.log(`Deleted Item with ID: ${deleteId}`);
+				alert(`Item with ID: ${deleteId} deleted!`);
+				document.getElementById('deleteItemId').value = '';
+			} else {
+				alert('Please enter a valid item ID to delete.');
+			}
+		}
+	</script>
   	
   	
 </body>

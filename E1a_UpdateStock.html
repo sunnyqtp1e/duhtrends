@@ -518,20 +518,24 @@
             						<div class="group-inner">
             						</div>
             						<b class="add-stock">ADD STOCK</b>
-            						<div class="rectangle-container">
-              							<div class="rectangle-div">
-              							</div>
-              							<b class="save">Save</b>
+            						<div class="rectangle-container" onclick="saveStock()">
+										<div class="rectangle-div">
+										</div>
+										<div class="save">Save</div>
             						</div>
             						<div class="group-child1">
+										<input type="text" id="itemId" class="input-field" placeholder="Enter Item ID" />
             						</div>
             						<div class="group-child2">
+										<input type="text" id="itemType" class="input-field" placeholder="Enter Item Type" />
             						</div>
             						<div class="item-id">Item_ID</div>
             						<div class="item-type">Item_Type</div>
             						<div class="group-child3">
+										<input type="text" id="itemDesc" class="input-field" placeholder="Enter Item Description" />
             						</div>
             						<div class="group-child4">
+										<input type="text" id="itemPrice" class="input-field" placeholder="Enter Item Price" />
             						</div>
             						<div class="item-description">Item_Description</div>
             						<div class="item-price">Item_Price</div>
@@ -543,38 +547,43 @@
             						</div>
             						<b class="edit-stock">EDIT STOCK</b>
             						<div class="group-child6">
+										<input type="text" id="itemId" class="input-field" placeholder="Enter Item ID" />
             						</div>
             						<div class="group-child7">
+										<input type="text" id="itemId" class="input-field" placeholder="Enter New Quantity" />
             						</div>
             						<div class="item-id1">Item_ID</div>
             						<div class="new-quantity">New Quantity</div>
           					</div>
           					<div class="group-child8">
+								<input type="text" id="itemDesc" class="input-field" placeholder="Enter Item Description" />
           					</div>
           					<div class="group-child9">
+								<input type="text" id="itemPrice" class="input-field" placeholder="Enter Item Price" />
           					</div>
           					<div class="item-description1">Item_Description</div>
           					<div class="item-price1">Item_Price</div>
           					<b class="save1">Save</b>
-          					<div class="rectangle-parent1">
+          					<div class="rectangle-parent1" onclick="saveStock()">
             						<div class="rectangle-div">
             						</div>
-            						<b class="save">Save</b>
+            						<div class="save">Save</div>
           					</div>
         				</div>
         				<div class="rectangle-parent2">
           					<div class="group-child11">
           					</div>
           					<div class="group-child12">
+								<input type="text" id="deleteItemId" class="input-field" placeholder="Enter Item ID to Delete" />
           					</div>
           					<div class="item-id2">Item_ID</div>
           					<div class="delete-an-item">Delete an item by Item_ID.</div>
           					<b class="delete">Delete</b>
           					<b class="delete-stock">DELETE STOCK</b>
-          					<div class="rectangle-parent3">
+          					<div class="rectangle-parent3" onclick="deleteStock()">
             						<div class="group-child13">
             						</div>
-            						<b class="delete1">Delete</b>
+            						<div class="delete1">Delete</div>
           					</div>
         				</div>
       			</div>
@@ -587,7 +596,41 @@
     		</div>
   	</div>
   	
-  	
+  	<script>
+		// Save item function
+		function saveStock() {
+			const itemId = document.getElementById('itemId').value;
+			const itemType = document.getElementById('itemType').value;
+			const itemDesc = document.getElementById('itemDesc').value;
+			const itemPrice = document.getElementById('itemPrice').value;
+	
+			if (itemId && itemType && itemDesc && itemPrice) {
+				console.log(`Saved Item -> ID: ${itemId}, Type: ${itemType}, Description: ${itemDesc}, Price: ${itemPrice}`);
+				alert(`Item Saved!\nID: ${itemId}\nType: ${itemType}\nDescription: ${itemDesc}\nPrice: ${itemPrice}`);
+				// Clear fields after saving
+				document.getElementById('itemId').value = '';
+				document.getElementById('itemType').value = '';
+				document.getElementById('itemDesc').value = '';
+				document.getElementById('itemPrice').value = '';
+		
+			} else {
+				alert('Please fill in all fields before saving.');
+			}
+		}
+	
+		// Delete item function
+		function deleteStock() {
+			const deleteId = document.getElementById('deleteItemId').value;
+	
+			if (deleteId) {
+				console.log(`Deleted Item with ID: ${deleteId}`);
+				alert(`Item with ID: ${deleteId} deleted!`);
+				document.getElementById('deleteItemId').value = '';
+			} else {
+				alert('Please enter a valid item ID to delete.');
+			}
+		}
+	</script>
   	
   	
 </body>

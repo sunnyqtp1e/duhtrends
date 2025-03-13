@@ -42,6 +42,7 @@ a:hover, a:visited, a:active {
 .dropdown-menu {
     display: none;
     position: absolute;
+    left: 60%;
     background: #303030;
     list-style: none;
     font-size: 16px;
@@ -49,7 +50,8 @@ a:hover, a:visited, a:active {
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     padding: 0;
     margin: 0;
-    width: 150px;
+    width: 250px;
+    height: 100px;
     font-family: Poppins;
 }
 .down-icon {

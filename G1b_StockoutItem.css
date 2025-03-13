@@ -1,9 +1,8 @@
-
 body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Poppins';
     background-color: #303030;
 }
 a {
@@ -17,6 +16,7 @@ a:hover, a:visited, a:active {
 }
 .dropdown-container {
     position: relative;
+    display:inline-block;
     top: 130px;
     left: 76px;
 }
@@ -40,11 +40,11 @@ a:hover, a:visited, a:active {
 
 }
 
-
 .dropdown-menu {
-    z-index: 2;
     display: none;
-    position: relative;
+    position: absolute; 
+    top: 160px; 
+    left: 400px;
     background: #303030;
     list-style: none;
     font-size: 16px;
@@ -52,10 +52,9 @@ a:hover, a:visited, a:active {
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     padding: 0;
     margin: 0;
-    height: 200px;
-    width: 300px;
-    top: 100px;
-    left: 300px;
+    width: 250px;
+    height: 100px;
+    overflow: visible;
     font-family: Poppins;
 }
 .down-icon {
@@ -79,14 +78,10 @@ a:hover, a:visited, a:active {
 
 }
 
-.group-child {
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    backdrop-filter: blur(10px);
-    background-color: #303030;
-    width: 1280px;
-    height: 800px;
+
+.dropdown-menu.show {
+    z-index: 1;
+    display: block;
 }
 .group-item {
     position: absolute;
@@ -97,6 +92,7 @@ a:hover, a:visited, a:active {
     background-color: #f6f6f6;
     width: 100%;
     height: 100vh;
+    overflow: visible;
 }
 
 .management-stockout-item-child {
@@ -225,5 +221,6 @@ a:hover, a:visited, a:active {
     font-size: 30px;
     color: #f6f6f6;
     font-family: Poppins;
+    overflow: visible;
 }
 
