@@ -16,6 +16,15 @@ body {
     width: 100%;
     height: 100vh;
 }
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover, a:visited, a:active {
+    text-decoration: none;
+    color: inherit;
+}
 .sales-history {
     position: absolute;
     top: 22px;

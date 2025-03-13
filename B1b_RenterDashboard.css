@@ -115,7 +115,7 @@ a:hover, a:visited, a:active {
 .home-container {
     position: absolute;
     top: 0px;
-    left: 0px;
+    left: 0px; 
     border-radius: 26px;
     background-color: #f6f6f6;
     width: 294px;
