@@ -5,13 +5,14 @@ body {
     background-attachment: fixed;
     font-family: Poppins;
 }
-.bg-leaves-icon {
-    position: absolute;
-    top: -304px;
-    left: 560px;
-    width: 1101.9px;
-    height: 1424.8px;
-    object-fit: contain;
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover, a:visited, a:active {
+    text-decoration: none;
+    color: inherit;
 }
 .staff-inventory-overview-child {
     position: absolute;

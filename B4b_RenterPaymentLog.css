@@ -24,6 +24,43 @@ body {
     width: 290px;
     height: 52px;
 }
+.search-bar {
+    width: 250px;
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+    background-color: #333; 
+    color: white;
+    outline: none;
+    font-size: 14px;
+    padding-left: 40px;
+    position: relative;
+    font-family: Poppins;
+}
+.search-text-field {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border-radius: 22px;
+    background-color: #303030;
+    width: 437px;
+    height: 41px;
+}
+.search-icon {
+    position: absolute;
+    top: 6px;
+    left: 10px;
+    width: 28px;
+    height: 28px;
+    object-fit: cover;
+}
+.search-group {
+    position: absolute;
+    top: 170px;
+    left: 305px;
+    width: 437px;
+    height: 41px;
+}
 .rent-payment-log1 {
     position: absolute;
     top: 175px;
@@ -284,13 +321,12 @@ a:hover, a:visited, a:active {
 }
 .rent-payment-log-inner {
     position: absolute;
-    top: 163px;
-    left: 992px;
-    filter: drop-shadow(-2px 2px 0px rgba(0, 0, 0, 0.25));
-    width: 222px;
+    top: 0px;
+    left: 0px;
+    width: 230px;
     height: 46px;
     font-size: 17px;
-    color: #ffcb74;
+
 }
 .group-item {
     position: absolute;
@@ -317,15 +353,6 @@ a:hover, a:visited, a:active {
     width: 30px;
     height: 30px;
     object-fit: cover;
-}
-.rectangle-group {
-    position: absolute;
-    top: 677px;
-    left: 305px;
-    box-shadow: -2px 2px 0px rgba(0, 0, 0, 0.25);
-    width: 167px;
-    height: 63px;
-    color: #ffcb74;
 }
 .duh-trends-palas {
     position: absolute;

@@ -5,14 +5,19 @@ body {
     background-attachment: fixed;
     font-family: Poppins;
 }
+.input-container {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
 
-.bg-leaves-icon {
-    position: absolute;
-    top: -304px;
-    left: 560px;
-    width: 1101.9px;
-    height: 1424.8px;
-    object-fit: contain;
+a:hover, a:visited, a:active {
+    text-decoration: none;
+    color: inherit;
 }
 .staff-manage-sales-child {
     position: absolute;
@@ -192,23 +197,52 @@ body {
     font-size: 20px;
     color: #ffcb74;
 }
-.rectangle-div {
-    position: absolute;
-    top: 568px;
-    left: 532px;
-    border-radius: 12px;
-    background-color: #f6f6f6;
-    width: 305px;
-    height: 36px;
+
+.quantity-sold-text {
+    top: 589px;
+    left: 538.5px;
+    width: 250px;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    background-color: #f6f6f6; 
+    color: #303030;
+    outline: none;
+    font-size: 14px;
+    padding-left: 40px;
+    position: relative;
+    font-family: Poppins;
 }
-.staff-manage-sales-child1 {
-    position: absolute;
-    top: 620px;
-    left: 532px;
-    border-radius: 12px;
-    background-color: #f6f6f6;
-    width: 305px;
-    height: 36px;
+.item-name-text {
+        top: 620px;
+        left: 540px;
+        width: 250px;
+        padding: 10px;
+        border: none;
+        border-radius: 10px;
+        background-color: #f6f6f6; 
+        color: #303030;
+        outline: none;
+        font-size: 14px;
+        padding-left: 40px;
+        position: relative;
+        font-family: Poppins;
+}
+
+.item-id-text {
+    top: 526px;
+    left: 540px;
+    width: 250px;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    background-color: #f6f6f6; 
+    color: #303030;
+    outline: none;
+    font-size: 14px;
+    padding-left: 40px;
+    position: relative;
+    font-family: Poppins;
 }
 .staff-manage-sales-child2 {
     position: absolute;
@@ -223,7 +257,7 @@ body {
     position: absolute;
     top: 625px;
     left: calc(50% - 521px);
-    font-size: 20px;
+    font-size: 16px;
     line-height: 130%;
     font-weight: 600;
     display: inline-block;
@@ -234,7 +268,7 @@ body {
     position: absolute;
     top: 573px;
     left: calc(50% - 521px);
-    font-size: 20px;
+    font-size: 16px;
     line-height: 130%;
     font-weight: 600;
     display: inline-block;
@@ -245,7 +279,7 @@ body {
     position: absolute;
     top: 680px;
     left: calc(50% - 521px);
-    font-size: 22px;
+    font-size: 16px;
     line-height: 130%;
     font-weight: 600;
     display: inline-block;
@@ -375,6 +409,45 @@ body {
     width: 86px;
     height: 22px;
 }
+.reset-button {
+    position: fixed;
+    top: 160px;
+    left: 870px;
+    width: 320px;
+    height: 20px;
+    text-align: center;
+    background-color: #303030;
+    color: #ffcb74;
+    font-weight: 900;
+    font-size: 14px;
+    padding: 10px 18px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-family: Poppins;
+}
+.submit-button {
+    position: absolute;
+    top: 700px;
+    left: 870px;
+    background-color: #ffcb74;
+    color: #303030;
+    font-weight: 900;
+    font-size: 14px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: Poppins;
+}
+.reset-button:hover {
+    background-color: #4b4b4b;
+}
+
+.submit-button:hover {
+    background-color: #ffe5b7;
+}
+
 .rectangle-container {
     position: absolute;
     top: 716px;
